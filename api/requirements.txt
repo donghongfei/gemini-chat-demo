@@ -1,5 +1,5 @@
-# api/requirements.txt
-flask==2.2.3
+flask==2.0.1
+werkzeug==2.0.1
 flask-cors==3.0.10
 google-generativeai==0.7.0
 python-dotenv==1.0.0
