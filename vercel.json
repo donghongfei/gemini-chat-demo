@@ -23,8 +23,5 @@
       "src": "/",
       "dest": "/public/index.html"
     }
-  ],
-  "env": {
-    "GEMINI_API_KEY": "@GEMINI_API_KEY"
-  }
+  ]
 }
