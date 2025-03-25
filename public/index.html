@@ -1,0 +1,39 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI 面试助手</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Gemini AI 面试助手</h1>
+            <p>基于Google Gemini 2.0 Flash模型</p>
+        </div>
+        
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message assistant">
+                    <div class="message-content">
+                        <p>您好！我是AI面试助手，请问有什么可以帮助您的？</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <textarea id="user-input" placeholder="输入您的问题..."></textarea>
+                <button id="send-button">发送</button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>这是一个演示项目，部署于Vercel</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
